@@ -1,0 +1,67 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title>Pennywise Express - Booking</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+
+    <header>
+        <h1>Pennywise Express</h1>
+        <p>Book Your Trip Easily and Safely</p>
+    </header>
+
+    <hr>
+
+     <nav>
+            <a href="index.html">Home</a> |
+            <a href="about.html">About</a> |
+            <a href="contact.html">Contact</a>|
+            <a href="services.html">Services</a>|
+            <a href="routes.html">Routes</a>|
+        </nav>
+
+    <hr>
+
+    <main>
+
+        <h2>Booking Form</h2>
+
+        <form>
+            <label>Full Name:</label><br>
+            <input type="text" name="fullname" required><br><br>
+
+            <label>Email Address:</label><br>
+            <input type="email" name="email" required><br><br>
+
+            <label>Phone Number:</label><br>
+            <input type="tel" name="phone" required><br><br>
+
+            <label>Select Route:</label><br>
+            <select name="route">
+                <option>Sand Dunes Express (Gaborone - Kang)</option>
+                <option>Coastal Cruiser (Gaborone - Orapa)</option>
+                <option>City Lights Tour (Gaborone - Francistown)</option>
+            </select><br><br>
+
+            <label>Travel Date:</label><br>
+            <input type="date" name="date" required><br><br>
+
+            <label>Number of Seats:</label><br>
+            <input type="number" name="seats" min="1" max="10" required><br><br>
+
+            <button type="submit">Book Now</button>
+        </form>
+
+    </main>
+
+    <hr>
+
+    <footer>
+        <p>&copy; 2026 Pennywise Express. All Rights Reserved.</p>
+        <p>Email: info@pennywiseexpress.com</p>
+        <p>Phone: +267 78 753 467</p>
+    </footer>
+
+</body>
+</html>
